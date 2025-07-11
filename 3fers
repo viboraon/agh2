@@ -1999,7 +1999,6 @@ AfktorsoWeld.C0=Lerp(AfktorsoWeld.C0,cfMul(cf(0,1,-0.3),angles(-0.26179938779914
 AfkllegWeld.C0=Lerp(AfkllegWeld.C0,cfMul(cf(-1,4,0.3),angles(-0.017453292519943295,0.03490658503988659*sin(sine*3),-0.017453292519943295)),deltaTime)
 AfkrlegWeld.C0=Lerp(AfkrlegWeld.C0,cfMul(cf(1,4,0.3),angles(0.019198621771937627,0.008726646259971648+0.03490658503988659*sin(sine*-3),0.03490658503988659)),deltaTime)
 AfkrarmWeld.C0=Lerp(AfkrarmWeld.C0,cfMul(cf(1.1,-3,0.5),angles(0,0.03490658503988659*sin(sine*-3),-1.5707963267948966)),deltaTime)
-AfklarmWeld.C0=Lerp(AfklarmWeld.C0,cfMul(cf(-1.1,-3,0.5),angles(0.05235987755982989,-0.017453292519943295+0.03490658503988659*sin(sine*-3),1.5184364492350666)),deltaTime) 
 
 end,
 		walk = function()
@@ -2016,7 +2015,6 @@ AfktorsoWeld.C0=Lerp(AfktorsoWeld.C0,cfMul(cf(0,1,-0.3),angles(-0.26179938779914
 AfkllegWeld.C0=Lerp(AfkllegWeld.C0,cfMul(cf(-1,4,0.3),angles(-0.017453292519943295,0.03490658503988659*sin(sine*3),-0.017453292519943295)),deltaTime)
 AfkrlegWeld.C0=Lerp(AfkrlegWeld.C0,cfMul(cf(1,4,0.3),angles(0.019198621771937627,0.008726646259971648+0.03490658503988659*sin(sine*-3),0.03490658503988659)),deltaTime)
 AfkrarmWeld.C0=Lerp(AfkrarmWeld.C0,cfMul(cf(1.1,-3,0.5),angles(0,0.03490658503988659*sin(sine*-3),-1.5707963267948966)),deltaTime)
-AfklarmWeld.C0=Lerp(AfklarmWeld.C0,cfMul(cf(-1.1,-3,0.5),angles(0.05235987755982989,-0.017453292519943295+0.03490658503988659*sin(sine*-3),1.5184364492350666)),deltaTime) 
 end,
 		jump = function()
 			velYchg()
@@ -2028,7 +2026,6 @@ AfktorsoWeld.C0=Lerp(AfktorsoWeld.C0,cfMul(cf(0,1,-0.3),angles(-0.26179938779914
 AfkllegWeld.C0=Lerp(AfkllegWeld.C0,cfMul(cf(-1,4,0.3),angles(-0.017453292519943295,0.03490658503988659*sin(sine*3),-0.017453292519943295)),deltaTime)
 AfkrlegWeld.C0=Lerp(AfkrlegWeld.C0,cfMul(cf(1,4,0.3),angles(0.019198621771937627,0.008726646259971648+0.03490658503988659*sin(sine*-3),0.03490658503988659)),deltaTime)
 AfkrarmWeld.C0=Lerp(AfkrarmWeld.C0,cfMul(cf(1.1,-3,0.5),angles(0,0.03490658503988659*sin(sine*-3),-1.5707963267948966)),deltaTime)
-AfklarmWeld.C0=Lerp(AfklarmWeld.C0,cfMul(cf(-1.1,-3,0.5),angles(0.05235987755982989,-0.017453292519943295+0.03490658503988659*sin(sine*-3),1.5184364492350666)),deltaTime)
 end,
 		fall = function()
 			velYchg()
@@ -2040,7 +2037,6 @@ AfktorsoWeld.C0=Lerp(AfktorsoWeld.C0,cfMul(cf(0,1,-0.3),angles(-0.26179938779914
 AfkllegWeld.C0=Lerp(AfkllegWeld.C0,cfMul(cf(-1,4,0.3),angles(-0.017453292519943295,0.03490658503988659*sin(sine*3),-0.017453292519943295)),deltaTime)
 AfkrlegWeld.C0=Lerp(AfkrlegWeld.C0,cfMul(cf(1,4,0.3),angles(0.019198621771937627,0.008726646259971648+0.03490658503988659*sin(sine*-3),0.03490658503988659)),deltaTime)
 AAfkrarmWeld.C0=Lerp(AfkrarmWeld.C0,cfMul(cf(1.1,-3,0.5),angles(0,0.03490658503988659*sin(sine*-3),-1.5707963267948966)),deltaTime)
-AfklarmWeld.C0=Lerp(AfklarmWeld.C0,cfMul(cf(-1.1,-3,0.5),angles(0.05235987755982989,-0.017453292519943295+0.03490658503988659*sin(sine*-3),1.5184364492350666)),deltaTime) 
 end
 	})
 
